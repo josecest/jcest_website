@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+            height: 100vh;
+            display: flex;
+        }
+        .side-panel {
+            width: 300px;
+            background-color: #696161;
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            box-shadow: 3px 0 6px rgba(0, 0, 0, 0.15);
+        }
+        .side-panel a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 1.3em;
+            text-align: center;
+            padding: 15px;
+            width: 100%;
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 8px;
+            margin: 10px 0;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        .side-panel a:hover {
+            background-color: rgba(255, 255, 255, 0.3);
+            color: #f9f9f9;
+        }
+        .main-content {
+            flex: 1;
+            padding: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .about-container {
+            width: 90%;
+            max-width: 800px;
+            padding: 30px;
+            background-color: #ffffff;
+            border-radius: 12px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+        }
+        .about-header {
+            text-align: center;
+            margin-bottom: 25px;
+        }
+        .about-header h1 {
+            font-size: 2.8em;
+            color: #444;
+        }
+        .about-content {
+            line-height: 1.8;
+            text-align: center;
+            margin-bottom: 25px;
+            font-size: 1.2em;
+        }
+        .profile-pic {
+            width: 180px;
+            height: 180px;
+            object-fit: cover;
+            margin: 20px auto;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="side-panel">
+        <a href="#about">Who I Am!</a>
+        <a href="#blog">Blog</a>
+        <a href="#projects">Personal Projects</a>
+    </div>
+    <div class="main-content">
+        <div class="about-container" id="about">
+            <div class="about-header">
+                <h1>Who I Am!</h1>
+            </div>
+            <img src="profile-picture.jpg" alt="Profile Picture" class="profile-pic">
+            <div class="about-content">
+                <p>
+                    Hi, I’m José (otherwise known as Joaco)! I'm currently a student at Carnegie Mellon University whose
+                    interests include Computer Systems, Computer Architecture, and Embedded Systems. 
+                </p>
+                <p>
+                    Welcome to my page! Feel free to peruse contents relating to my personal projects or
+                    my general musings (you may get some pretty good quips).
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

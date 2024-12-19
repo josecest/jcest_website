@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Projects</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background-color: #5a67d8;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        .projects-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .project-card {
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            text-align: center;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .project-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+        .project-card h2 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+            color: #5a67d8;
+        }
+        .project-card p {
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+        .project-card a {
+            text-decoration: none;
+            color: #fff;
+            background-color: #5a67d8;
+            padding: 10px 15px;
+            border-radius: 4px;
+            display: inline-block;
+            transition: background-color 0.3s;
+        }
+        .project-card a:hover {
+            background-color: #434190;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Personal Projects</h1>
+    </header>
+    <div class="projects-container">
+        <div class="project-card">
+            <h2>Project One</h2>
+            <p>A brief description of your first project goes here. Highlight key features or goals.</p>
+            <a href="#">Learn More</a>
+        </div>
+        <div class="project-card">
+            <h2>Project Two</h2>
+            <p>A brief description of your second project goes here. Highlight key features or goals.</p>
+            <a href="#">Learn More</a>
+        </div>
+        <div class="project-card">
+            <h2>Project Three</h2>
+            <p>A brief description of your third project goes here. Highlight key features or goals.</p>
+            <a href="#">Learn More</a>
+        </div>
+    </div>
+</body>
+</html>
